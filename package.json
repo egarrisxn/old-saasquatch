@@ -1,6 +1,21 @@
 {
+  "name": "old-saasquatch",
+  "version": "1.0.0",
+  "homepage": "https://old-saasquatch.vercel.app",
+  "description": "My New SaaS Starter!",
+  "license": "MIT",
   "private": true,
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "drizzle",
+    "tailwindcss",
+    "stripe",
+    "vercel",
+    "supabase"
+  ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
